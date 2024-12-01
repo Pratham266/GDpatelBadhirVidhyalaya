@@ -115,7 +115,10 @@ const About = () => {
                       </i>
                       <h5>Vision</h5>
                       <p>
-                      It is to develop the curiosity of learning in the child, explore their interests, encourage them to become independent with rich family spirit through skill training with the cooperation of parents-teachers.
+                        It is to develop the curiosity of learning in the child,
+                        explore their interests, encourage them to become
+                        independent with rich family spirit through skill
+                        training with the cooperation of parents-teachers.
                       </p>
                     </div>
                   </div>
@@ -134,8 +137,15 @@ const About = () => {
                       </i>
                       <h5>Mission</h5>
                       <p>
-                      To educate every student/child to the highest levels of academic achievement, to recognize the physical, mental, intellectual, academic potential in them, to prepare them to be moral, sincere, creative and compassionate (citizen) human beings. 
-                      Our mission is to work together to provide children (students) with a safe environment, inclusive-all-round education and skills acquisition in a family-friendly environment for successful re-establishment in the society.
+                        To educate every student/child to the highest levels of
+                        academic achievement, to recognize the physical, mental,
+                        intellectual, academic potential in them, to prepare
+                        them to be moral, sincere, creative and compassionate
+                        (citizen) human beings. Our mission is to work together
+                        to provide children (students) with a safe environment,
+                        inclusive-all-round education and skills acquisition in
+                        a family-friendly environment for successful
+                        re-establishment in the society.
                       </p>
                     </div>
                   </div>
@@ -146,9 +156,11 @@ const About = () => {
                   <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                     <a className="d-block blur-shadow-image">
                       <PhotoProvider>
-                        <PhotoView src={`./assets/img/visitors/vs5.JPG`}>
+                        <PhotoView
+                          src={`./assets/img/School Achivements/Best teacher award/Award -2.jpg`}
+                        >
                           <img
-                            src={`./assets/img/visitors/vs5.JPG`}
+                            src={`./assets/img/School Achivements/Best teacher award/Award -2.jpg`}
                             alt="img-colored-shadow"
                             className="img-fluid border-radius-lg"
                           />
@@ -271,10 +283,12 @@ const About = () => {
               <div className="col-md-5 ms-auto">
                 <div className="position-relative">
                   <PhotoProvider>
-                    <PhotoView src="./assets/img/visitors/vs4.jpg">
+                    <PhotoView
+                      src={`./assets/img/School Achivements/School Achivement -1.jpg`}
+                    >
                       <img
                         className="max-width-50 w-100 position-relative z-index-2"
-                        src="./assets/img/visitors/vs4.jpg"
+                        src={`./assets/img/School Achivements/School Achivement -1.jpg`}
                         alt="image-dhabakara-2"
                       />
                     </PhotoView>

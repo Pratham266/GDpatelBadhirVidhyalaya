@@ -63,7 +63,6 @@ const activities = [
     path: "/activite/language-development",
     tagline: "Yearly events and programs.",
   },
-  
 ];
 
 const Navbar = () => {
@@ -155,7 +154,7 @@ const Navbar = () => {
                 target="_blank"
                 style={{ fontSize: "24px" }}
               >
-                KBV
+                G.D Patel Badhir Vidhyalay
               </a>
               <button
                 className="navbar-toggler shadow-none ms-2"
@@ -194,19 +193,19 @@ const Navbar = () => {
                       Home
                     </Link>
                   </li>
-                  
+
                   <li className="nav-item dropdown dropdown-hover mx-2">
                     <Link
                       className="nav-link ps-2 d-flex cursor-pointer align-items-center"
                       id="dropdownMenuPages"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
-                      to="/hostel"
+                      to="/achievement"
                     >
                       <i className="material-icons opacity-6 me-2 text-md">
                         view_day
                       </i>
-                      Hostel
+                      School Achievement
                     </Link>
                   </li>
                   <li className="nav-item dropdown dropdown-hover mx-2">
@@ -220,7 +219,7 @@ const Navbar = () => {
                       <i className="material-icons opacity-6 me-2 text-md">
                         view_day
                       </i>
-                       Facilities
+                      Facilities
                     </Link>
                   </li>
                   <li className="nav-item dropdown dropdown-hover mx-2">
@@ -384,7 +383,7 @@ const Navbar = () => {
                       </div>
                     </ul>
                   </li> */}
-                 
+
                   <li className="nav-item my-auto ms-3 ms-lg-0 mt-1">
                     <Link
                       to="contact"

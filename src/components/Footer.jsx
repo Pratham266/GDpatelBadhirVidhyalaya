@@ -9,140 +9,98 @@ import { PhotoProvider, PhotoView } from "react-photo-view";
 const activities = [
   {
     id: 1,
-    title: "Drawing Activity",
-    path: "/activite/drawing-activity",
-    tagline: "Express Your Creativity",
+    title: "Skill Development and Job Placement",
+    path: "/Skill Development and Job Placement",
+    tagline: "Empowering Futures",
   },
   {
     id: 2,
-    title: "Art and Craft",
-    path: "/activite/art-and-craft",
-    tagline: "Hands-On Imagination",
+    title: "Teacher Training",
+    path: "/Teacher Training",
+    tagline: "Building Excellence in Education",
   },
   {
     id: 3,
-    title: "Science",
-    path: "/activite/science",
-    tagline: "Explore and Discover",
+    title: "Science Fair and Projects",
+    path: "/Science Fair and Projects",
+    tagline: "Innovate and Inspire",
   },
   {
     id: 4,
-    title: "Physical Education",
-    path: "/activite/physical-education",
-    tagline: "Strength and Agility",
+    title: "School Election",
+    path: "/School Election",
+    tagline: "Leadership in Action",
   },
   {
     id: 5,
     title: "Cultural Programme",
-    path: "/activite/cultural-programme",
-    tagline: "Celebrate Diversity",
+    path: "/Cultural Programme",
+    tagline: "Unity in Diversity",
   },
   {
     id: 6,
-    title: "Field Trips - Tours",
-    path: "/activite/field-trips-tours",
-    tagline: "Learning Beyond Walls",
+    title: "Prize Distribution",
+    path: "/Prize Distribution",
+    tagline: "Celebrating Achievements",
   },
   {
     id: 7,
-    title: "Medical Check up",
-    path: "/activite/medical-check-up",
-    tagline: "Health is Wealth",
+    title: "Parents Meeting",
+    path: "Parents Meeting",
+    tagline: "Strengthening Bonds",
   },
   {
     id: 8,
-    title: "Festivals Celebrations",
-    path: "/activite/festivals-celebrations",
-    tagline: "Joyful Traditions",
+    title: "Matrimonial activities",
+    path: "/Matrimonial activities",
+    tagline: "Connecting Lives",
   },
   {
     id: 9,
-    title: "Work Shops",
-    path: "/activite/work-shops",
-    tagline: "Skill Enhancement",
+    title: "CSR Activities",
+    path: "/CSR Activities",
+    tagline: "Empowering Communities",
   },
   {
     id: 10,
-    title: "Language Development",
-    path: "/activite/language-development",
-    tagline: "Fluency and Expression",
-  },
-  {
-    id: 11,
-    title: "Theater Arts",
-    path: "/activite/theater-arts",
-    tagline: "Drama and Expression",
-  },
-  {
-    id: 12,
-    title: "Lunch Time",
-    path: "/activite/lunch-time",
-    tagline: "Relax and Socialize",
-  },
-  {
-    id: 13,
-    title: "Plantation",
-    path: "/activite/plantation",
-    tagline: "Gardening and Sustainability",
-  },
-  {
-    id: 14,
-    title: "Sports Day",
-    path: "/activite/sports-day",
-    tagline: "Fun and Fitness",
-  },
-  {
-    id: 15,
-    title: "Sport Time",
-    path: "/activite/sport-time",
-    tagline: "Active Play and Teamwork",
-  },
-  {
-    id: 16,
-    title: "Corona Time Activity",
-    path: "/activite/corona-time",
-    tagline: "Corona Awareness Activity",
-  },
-  {
-    id: 17,
-    title: "Day Celebration",
-    path: "/activite/day-celebration",
-    tagline: "Celebrate Together, Create Memories",
+    title: "Annual Activities",
+    path: "/Annual Activities",
+    tagline: "Celebrating Year-Round Excellence",
   },
 ];
 
-const latters = [
-  {
-    id: 1,
-    path: "./assets/letters/Kbv The Littele Hands News Letter-1.pdf",
-    title: "News Letter 1",
-  },
-  {
-    id: 2,
-    path: "./assets/letters/Kbv The Littele Hands News Letter-2.pdf",
-    title: "News Letter 2",
-  },
-  {
-    id: 3,
-    path: "./assets/letters/Kbv The Littele Hands News Letter-3.pdf",
-    title: "News Letter 3",
-  },
-  {
-    id: 4,
-    path: "./assets/letters/Kbv The Littele Hands News Letter-4.pdf",
-    title: "News Letter 4",
-  },
-  {
-    id: 5,
-    path: "./assets/letters/Kbv The Littele Hands News Letter-5.pdf",
-    title: "News Letter 5",
-  },
-  {
-    id: 6,
-    path: "./assets/letters/KBV  News Letter - 6.pdf",
-    title: "News Letter 6",
-  },
-];
+// const latters = [
+//   {
+//     id: 1,
+//     path: "./assets/letters/Kbv The Littele Hands News Letter-1.pdf",
+//     title: "News Letter 1",
+//   },
+//   {
+//     id: 2,
+//     path: "./assets/letters/Kbv The Littele Hands News Letter-2.pdf",
+//     title: "News Letter 2",
+//   },
+//   {
+//     id: 3,
+//     path: "./assets/letters/Kbv The Littele Hands News Letter-3.pdf",
+//     title: "News Letter 3",
+//   },
+//   {
+//     id: 4,
+//     path: "./assets/letters/Kbv The Littele Hands News Letter-4.pdf",
+//     title: "News Letter 4",
+//   },
+//   {
+//     id: 5,
+//     path: "./assets/letters/Kbv The Littele Hands News Letter-5.pdf",
+//     title: "News Letter 5",
+//   },
+//   {
+//     id: 6,
+//     path: "./assets/letters/KBV  News Letter - 6.pdf",
+//     title: "News Letter 6",
+//   },
+// ];
 
 const Footer = () => {
   const { setSelectedId } = useGlobalState();
@@ -177,9 +135,9 @@ const Footer = () => {
               </a>
               <h6
                 className="font-weight-bolder mb-4"
-                style={{ marginLeft: "36px" }}
+                style={{ marginLeft: "-38px" }}
               >
-                KBV
+                G.D Patel Badhir Vidhyalay
               </h6>
             </div>
             {/* remove margin when more scoailmedi account */}
@@ -216,7 +174,7 @@ const Footer = () => {
                 <li className="nav-item">
                   <a
                     className="nav-link pe-1"
-                    href="https://www.youtube.com/@kbvidyalayavadodara2924"
+                    href="https://www.youtube.com/@shrigirdharbhaidpatelbadhi9692"
                     target="_blank"
                   >
                     <FaYoutube
@@ -266,21 +224,6 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <h6 className="text-sm">Reach Us</h6>
-              <ul className="flex-column ms-n3 nav">
-                <li className="nav-item">
-                  <Link className="nav-link" to={"/contact"}>
-                    Contact Us
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to={"/volunteers"}>
-                    Volunteers
-                  </Link>
-                </li>
-              </ul>
-            </div>
           </div>
           <div className="col-md-2 col-sm-6 col-6 mb-4">
             <div>
@@ -320,6 +263,21 @@ const Footer = () => {
           </div>
           <div className="col-md-2 col-sm-6 col-6 mb-4 me-auto">
             <div>
+              <h6 className="text-sm">Reach Us</h6>
+              <ul className="flex-column ms-n3 nav">
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/contact"}>
+                    Contact Us
+                  </Link>
+                </li>
+                {/* <li className="nav-item">
+                  <Link className="nav-link" to={"/volunteers"}>
+                    Volunteers
+                  </Link>
+                </li> */}
+              </ul>
+            </div>
+            {/* <div>
               <h6 className="text-sm">News Letters</h6>
               <ul className="flex-column ms-n3 nav">
                 {latters.map((item) => (
@@ -330,15 +288,24 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="col-12">
             <div className="text-center">
-              <p className="text-dark">Shree Girdharbhai D Patel Badhir Madhyamik Vidhyalaya</p>
-                  <p className="text-dark">Shree Haribhai R Desai Badhir Ucchattar Madhyamik Vidhyalaya</p>
-                 <p className="text-dark"> Near Bhagini Samaj, Water Tank Road, Karelibaug, Vadodara 390018</p>
-                  <p className="text-dark">Mobile No.: +91 8160135526</p>
-                  <p className="text-dark">School Registration No.  SSC : 22650340,  HSC : 22150156</p>
+              <p className="text-dark">
+                Shree Girdharbhai D Patel Badhir Madhyamik Vidhyalaya
+              </p>
+              <p className="text-dark">
+                Shree Haribhai R Desai Badhir Ucchattar Madhyamik Vidhyalaya
+              </p>
+              <p className="text-dark">
+                {" "}
+                Near Bhagini Samaj, Water Tank Road, Karelibaug, Vadodara 390018
+              </p>
+              <p className="text-dark">Mobile No.: +91 8160135526</p>
+              <p className="text-dark">
+                School Registration No. SSC : 22650340, HSC : 22150156
+              </p>
 
               <p className="text-dark my-4 text-sm font-weight-normal">
                 All rights reserved. Copyright ©{" "}

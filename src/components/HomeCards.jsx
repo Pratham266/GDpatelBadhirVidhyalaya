@@ -29,84 +29,30 @@ const responsive = {
   },
 };
 
-const milestones = [
-  {
-    id: 1,
-    src: "./assets/img/home/home_2.jpg",
-  },
-  {
-    id: 2,
-    src: "./assets/img/school/home/got 1 sr prize in district level program of 26 th januadry celebration by governmaent of gujarat.jpeg",
-  },
-  {
-    id: 3,
-    src: "./assets/img/home/home_3.jpg",
-  },
-  {
-    id: 4,
-    src: "./assets/img/school/home/WhatsApp Image 2020-01-10 at 8.39.56 AM.jpeg",
-  },
-];
-
-const visitors = [
-  {
-    id: 1,
-    img: "./assets/img/home/home_6.jpg",
-  },
-  {
-    id: 4,
-    img: "./assets/img/home/home_4.jpg",
-  },
-  {
-    id: 5,
-    img: "./assets/img/home/s1.JPG",
-  },
-  {
-    id: 8,
-    img: "./assets/img/home/ss2.jpeg",
-  },
-  {
-    id: 9,
-    img: "./assets/img/home/ss3.jpeg",
-  },
-  {
-    id: 10,
-    img: "./assets/img/home/ss4.jpeg",
-  },
-  {
-    id: 2,
-    img: "./assets/img/home/home_5.jpg",
-  },
-  {
-    id: 6,
-    img: "./assets/img/home/s2.JPG",
-  },
-  {
-    id: 11,
-    img: "./assets/img/home/ss5.jpeg",
-  },
-  {
-    id: 12,
-    img: "./assets/img/home/ss6.jpeg",
-  },
-];
-
 const wellwishers = [
   {
     id: 1,
-    img: "./assets/well/w1.jpeg",
+    img: "./assets/img/home/WellWishers/1.jpg",
   },
   {
     id: 2,
-    img: "./assets/well/w2.jpeg",
+    img: "./assets/img/home/WellWishers/2.jpg",
   },
   {
     id: 3,
-    img: "./assets/well/w3.jpeg",
+    img: "./assets/img/home/WellWishers/3.jpg",
   },
   {
     id: 4,
-    img: "./assets/well/w4.jpeg",
+    img: "./assets/img/home/WellWishers/4.jpg",
+  },
+  {
+    id: 5,
+    img: "./assets/img/home/WellWishers/5.jpg",
+  },
+  {
+    id: 6,
+    img: "./assets/img/home/WellWishers/6.jpg",
   },
 ];
 
@@ -118,85 +64,6 @@ const HomeCards = () => {
   };
   return (
     <div className="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-      <section className="my-5">
-        <div className="row">
-          <Carousel
-            responsive={responsive}
-            // additionalTransfrom={0}
-            arrows={false}
-            autoPlay
-            autoPlaySpeed={2500}
-            centerMode={false}
-            className=""
-            containerClass="container-with-dots"
-            dotListClass=""
-            draggable
-            focusOnSelect={false}
-            infinite
-            itemClass=""
-            keyBoardControl
-            minimumTouchDrag={80}
-            pauseOnHover
-            renderArrowsWhenDisabled={false}
-            renderButtonGroupOutside={false}
-            renderDotsOutside={false}
-            rewind={false}
-          >
-            {visitors.map((itm) => (
-              <div className="" key={itm.id}>
-                <div
-                  className="card card-plain"
-                  style={{ marginBottom: "10px" }}
-                >
-                  <div className=" p-0 position-relative">
-                    <a
-                      className="d-block blur-shadow-image"
-                      style={{
-                        marginTop: "8px",
-                        backgroundColor: "transparent",
-                        borderRadius: "10px",
-                        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-                        height: "215px",
-                        width: "348px",
-                        cursor: "pointer",
-                      }}
-                    >
-                      <PhotoProvider>
-                        <PhotoView src={itm.img}>
-                          <img
-                            src={itm.img}
-                            alt={`visitor-img-${itm.id}`}
-                            className="img-fluid shadow border-radius-lg"
-                            loading="lazy"
-                            style={{
-                              height: "210px",
-                              width: "343px",
-                              borderRadius: "10px",
-                              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-                            }}
-                          />
-                        </PhotoView>
-                      </PhotoProvider>
-                    </a>
-                  </div>
-                  {/* <div className="card-body px-0">
-              <h5>
-                <a href="javascript:;" className="text-dark font-weight-bold">
-                  Rover raised $65 million
-                </a>
-              </h5>
-              <p>
-                Finding temporary housing for your dog should be as easy as
-                renting an Airbnb. That’s the idea behind Rover ...
-              </p>
-            </div> */}
-                </div>
-              </div>
-            ))}
-          </Carousel>
-        </div>
-      </section>
-
       <section className="my-5">
         <div className="container">
           <div className="row">
@@ -290,7 +157,10 @@ const HomeCards = () => {
               <h3 className="text-gradient text-primary mb-0">Our Vision</h3>
               {/* <h3>We at "KBV"</h3> */}
               <p className="pe-md-5 mb-4">
-              It is to develop the curiosity of learning in the child, explore their interests, encourage them to become independent with rich family spirit through skill training with the cooperation of parents-teachers.
+                It is to develop the curiosity of learning in the child, explore
+                their interests, encourage them to become independent with rich
+                family spirit through skill training with the cooperation of
+                parents-teachers.
               </p>
               <div className="github-buttons">
                 <a
@@ -308,7 +178,7 @@ const HomeCards = () => {
               <a>
                 <img
                   className="w-100 border-radius-lg shadow-lg"
-                  src="./assets/img/visitors/certi.jpeg"
+                  src="./assets/img/home/Founder of school.jpg"
                   alt="Product Image"
                 />
               </a>
@@ -325,8 +195,14 @@ const HomeCards = () => {
               <h3 className="text-gradient text-primary mb-0">Our Mission</h3>
               <h3>Our school provides</h3>
               <p className="pe-md-5 mb-4">
-              To educate every student/child to the highest levels of academic achievement, to recognize the physical, mental, intellectual, academic potential in them, to prepare them to be moral, sincere, creative and compassionate (citizen) human beings. 
-              Our mission is to work together to provide children (students) with a safe environment, inclusive-all-round education and skills acquisition in a family-friendly environment for successful re-establishment in the society.
+                To educate every student/child to the highest levels of academic
+                achievement, to recognize the physical, mental, intellectual,
+                academic potential in them, to prepare them to be moral,
+                sincere, creative and compassionate (citizen) human beings. Our
+                mission is to work together to provide children (students) with
+                a safe environment, inclusive-all-round education and skills
+                acquisition in a family-friendly environment for successful
+                re-establishment in the society.
               </p>
               <div className="github-buttons">
                 <a
@@ -344,9 +220,7 @@ const HomeCards = () => {
               <a>
                 <img
                   className="w-100 border-radius-lg shadow-lg"
-                  src={
-                    "./assets/img/school/home/got school trophy in ureka science fair -2018.jpg"
-                  }
+                  src={"./assets/img/home/1.jpg"}
                   alt="Product Image"
                 />
               </a>
@@ -491,9 +365,15 @@ const HomeCards = () => {
                     }}
                   >
                     <PhotoProvider>
-                      <PhotoView src={"./assets/img/home/home_2.jpg"}>
+                      <PhotoView
+                        src={
+                          "./assets/img/School Achivements/Best teacher award/Award -1.jpg"
+                        }
+                      >
                         <img
-                          src={"./assets/img/home/home_2.jpg"}
+                          src={
+                            "./assets/img/School Achivements/Best teacher award/Award -1.jpg"
+                          }
                           alt="aboutus"
                           style={{
                             height: "100%",
@@ -523,12 +403,12 @@ const HomeCards = () => {
                     <PhotoProvider>
                       <PhotoView
                         src={
-                          "./assets/img/school/home/got 1 sr prize in district level program of 26 th januadry celebration by governmaent of gujarat.jpeg"
+                          "./assets/img/School Achivements/Khelmahakumbh running winners.jpg"
                         }
                       >
                         <img
                           src={
-                            "./assets/img/school/home/got 1 sr prize in district level program of 26 th januadry celebration by governmaent of gujarat.jpeg"
+                            "./assets/img/School Achivements/Khelmahakumbh running winners.jpg"
                           }
                           alt="contacus"
                           style={{
@@ -556,9 +436,15 @@ const HomeCards = () => {
                     }}
                   >
                     <PhotoProvider>
-                      <PhotoView src={"./assets/img/home/home_3.jpg"}>
+                      <PhotoView
+                        src={
+                          "./assets/img/School Achivements/Khelmahakumbh volleyball winners.jpg"
+                        }
+                      >
                         <img
-                          src={"./assets/img/home/home_3.jpg"}
+                          src={
+                            "./assets/img/School Achivements/Khelmahakumbh volleyball winners.jpg"
+                          }
                           alt="author"
                           style={{
                             height: "100%",
@@ -585,14 +471,10 @@ const HomeCards = () => {
                   >
                     <PhotoProvider>
                       <PhotoView
-                        src={
-                          "./assets/img/school/home/WhatsApp Image 2020-01-10 at 8.39.56 AM.jpeg"
-                        }
+                        src={"./assets/img/School Achivements/Marathon.jpg"}
                       >
                         <img
-                          src={
-                            "./assets/img/school/home/WhatsApp Image 2020-01-10 at 8.39.56 AM.jpeg"
-                          }
+                          src={"./assets/img/School Achivements/Marathon.jpg"}
                           alt="signin"
                           style={{
                             height: "100%",
@@ -725,25 +607,25 @@ const HomeCards = () => {
 
             <div className="col-lg-4 mt-2">
               <div className="video-container">
-              <iframe
-      src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftnnbarodanews%2Fvideos%2F796279132540834%2F&show_text=false&width=560&t=0"
-      width="560"
-      height="314"
-      style={{ border: "none", overflow: "hidden" }}  // Corrected style prop
-      scrolling="no"
-      frameBorder="0"
-      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-      allowFullScreen
-      title="Facebook Video"
-    />
+                <iframe
+                  src="https://www.youtube.com/embed/whTzijBjodA?si=Y5e8TCMA2eI-HYjN"
+                  width="560"
+                  height="314"
+                  style={{ border: "none", overflow: "hidden" }} // Corrected style prop
+                  scrolling="no"
+                  frameBorder="0"
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                  allowFullScreen
+                  title="Facebook Video"
+                />
               </div>
             </div>
-            {/* <div className="col-lg-4 mt-2">
+            <div className="col-lg-4 mt-2">
               <div className="video-container">
                 <iframe
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/5qRrf55AOpk?si=cVuF6mdREK4Y9Rsz"
+                  src="https://www.youtube.com/embed/nfMgPL6fgdo?si=NGK2rTTrmVVdWrxN"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -751,7 +633,21 @@ const HomeCards = () => {
                   allowfullscreen
                 ></iframe>
               </div>
-            </div> */}
+            </div>
+            <div className="col-lg-4 mt-2">
+              <div className="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/BdW-c6h-qpI?si=UYLbQttgvdpQIJd5"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </section>
