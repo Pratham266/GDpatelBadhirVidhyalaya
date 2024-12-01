@@ -30,8 +30,6 @@ const activities = [
     photos: [
       "../assets/img/Teacher_Training/Teacher training.jpg",
       "../assets/img/Teacher_Training/Teacher training - 1.jpg",
-      
-      
     ],
   },
   {
@@ -45,7 +43,6 @@ const activities = [
       "../assets/img/science/Science fair-1.jpg",
       "../assets/img/science/Science fair -2.jpg",
       "../assets/img/science/Science fair -3.jpg",
-     
     ],
   },
   {
@@ -115,18 +112,14 @@ const activities = [
     title: "Matrimonial activities",
     description:
       "Matrimonial activities involve organizing events and services to help individuals find life partners. These can include matchmaking, matrimonial fairs, and personalized counseling to assist in the search for compatible matches. The activities aim to create a platform for families to connect, share values, and find suitable partners for marriage.",
-    photos: [
-      "../assets/img//mat/1.jpg",
-    ],
+    photos: ["../assets/img//mat/1.jpg"],
   },
   {
     id: 9,
     title: "CSR Activities",
     description:
       "Corporate Social Responsibility (CSR) activities refer to initiatives taken by businesses to contribute positively to society and the environment. These activities can include community development, environmental sustainability, educational support, healthcare initiatives, and promoting social equity. CSR activities aim to improve the well-being of society while ensuring that companies operate ethically and responsibly.",
-    photos: [
-      "../assets/img/CSR/CSR.jpg",
-    ]
+    photos: ["../assets/img/CSR/CSR.jpg"],
   },
   {
     id: 10,
@@ -182,102 +175,102 @@ const activities = [
       "../assets/img/act/yog divas.jpg",
     ],
   },
-//   {
-//     id: 11,
-//     title: "Theater Arts",
-//     description:
-//       "The theater program for hearing-impaired children promotes social and emotional growth, social skills development, literacy, academic improvement, speech and communication skills, and higher motivation to learn. Children gain the skills and confidence needed to succeed in school, interact with peers, and express themselves in their daily lives.",
-//     photos: [
-//       "../assets/img/activity/theaterart/t1.jpg",
-//       "../assets/img/activity/theaterart/t3.jpg",
-//       "../assets/img/activity/theaterart/t4.jpg",
-//       "../assets/img/activity/theaterart/t5.jpeg",
-//       "../assets/img/activity/theaterart/t6.jpeg",
-//       "../assets/img/activity/theaterart/t9.jpeg",
-//       "../assets/img/activity/theaterart/t11.jpg",
-//       "../assets/img/activity/theaterart/t10.jpg",
-//       "../assets/img/activity/theaterart/t7.jpeg",
-//       "../assets/img/activity/theaterart/t8.jpeg",
-//       "../assets/img/activity/theaterart/t2.jpg",
-//     ],
-//   },
-//   {
-//     id: 12,
-//     title: "Lunch Time",
-//     description:
-//       "Lunch Time provides students with an opportunity to relax, socialize, and build friendships in a supportive and inclusive environment. It encourages peer interaction, enhances social skills, and gives students a break to recharge for the rest of the day’s activities. Special accommodations are made to ensure that all students, including those with hearing impairments, can engage comfortably and confidently.",
-//     photos: [
-//       "../assets/img/activity/lunchtime/l1.jpeg",
-//       "../assets/img/activity/lunchtime/l2.jpeg",
-//     ],
-//   },
-//   {
-//     id: 13,
-//     title: "Plantation",
-//     description:
-//       "The Plantation program introduces students to the joys and benefits of gardening and environmental stewardship. Through hands-on activities, students learn about plant growth, care, and the importance of sustainability. This program promotes teamwork, responsibility, and a connection to nature, all while enhancing students' practical skills and providing a calming, rewarding experience.",
-//     photos: [
-//       "../assets/img/activity/plantation/p1.jpeg",
-//       "../assets/img/activity/plantation/p2.jpeg",
-//     ],
-//   },
-//   {
-//     id: 14,
-//     title: "Sports Day",
-//     description:
-//       "Sports Day is a fun-filled event that encourages physical activity, teamwork, and healthy competition. Students participate in a variety of sports and games designed to be inclusive and accessible. This event promotes physical fitness, boosts self-confidence, and fosters a sense of community among students, all while ensuring that everyone can join in and enjoy the activities.",
-//     photos: [
-//       "../assets/img/activity/sportday/s1.jpeg",
-//       "../assets/img/activity/sportday/s2.jpeg",
-//       "../assets/img/activity/sportday/s3.jpeg",
-//       "../assets/img/activity/sportday/s4.jpeg",
-//       "../assets/img/activity/sportday/s5.jpeg",
-//       "../assets/img/activity/sportday/s6.jpeg",
-//       "../assets/img/activity/sportday/s7.jpeg",
-//       "../assets/img/activity/sportday/s8.jpeg",
-//       "../assets/img/activity/sportday/s9.jpeg",
-//     ],
-//   },
-//   {
-//     id: 15,
-//     title: "Sport Time",
-//     description:
-//       "Sport Time offers students an opportunity to engage in various sports and physical activities in a structured and supportive environment. This program focuses on developing physical skills, encouraging teamwork, and fostering a love for sports. Activities are designed to be inclusive and cater to all ability levels, ensuring that every student can participate and benefit from the experience.",
-//     photos: [
-//       "../assets/img/activity/sporttime/s1.jpeg",
-//       "../assets/img/activity/sporttime/s2.jpeg",
-//       "../assets/img/activity/sporttime/s3.jpeg",
-//       "../assets/img/activity/sporttime/s4.jpeg",
-//       "../assets/img/activity/sporttime/s5.jpeg",
-//       "../assets/img/activity/sporttime/s6.jpeg",
-//       "../assets/img/activity/sporttime/s7.jpeg",
-//       "../assets/img/activity/sporttime/soprtim.jpeg",
-//     ],
-//   },
-//   {
-//     id: 16,
-//     title: "Corona Awareness Activity",
-//     description:
-//       "Promoting awareness and safety during the COVID-19 pandemic. This activity focuses on educating students about hygiene practices, social distancing, and the importance of vaccination. The school organized various online seminars, poster-making competitions, and interactive sessions to inform and empower students about the preventive measures. These efforts contributed to raising awareness at both the community and institutional levels.",
-//     photos: [
-//       "../assets/img/activity/corona/c1.jpg",
-//       "../assets/img/activity/corona/c2.jpg",
-//       "../assets/img/activity/corona/c3.jpg",
-//       "../assets/img/activity/corona/c4.jpg",
-//       "../assets/img/activity/corona/c5.jpg",
-//     ],
-//   },
-//   {
-//     id: 17,
-//     title: "Day Celebration",
-//     description:
-//       "Day Celebration is a festive event where students come together to celebrate special occasions and cultural traditions. This event encourages a sense of community, allowing students to showcase their talents and participate in a variety of fun and engaging activities. Designed to be inclusive and enjoyable for all, the celebration fosters a spirit of togetherness and joy, creating memorable experiences for everyone involved.",
-//     photos: [
-//       "../assets/img/activity/festival/d1.jpeg",
-//       "../assets/img/activity/festival/d2.jpeg",
-//       "../assets/img/activity/festival/d3.jpeg",
-//     ],
-//   },
+  //   {
+  //     id: 11,
+  //     title: "Theater Arts",
+  //     description:
+  //       "The theater program for hearing-impaired children promotes social and emotional growth, social skills development, literacy, academic improvement, speech and communication skills, and higher motivation to learn. Children gain the skills and confidence needed to succeed in school, interact with peers, and express themselves in their daily lives.",
+  //     photos: [
+  //       "../assets/img/activity/theaterart/t1.jpg",
+  //       "../assets/img/activity/theaterart/t3.jpg",
+  //       "../assets/img/activity/theaterart/t4.jpg",
+  //       "../assets/img/activity/theaterart/t5.jpeg",
+  //       "../assets/img/activity/theaterart/t6.jpeg",
+  //       "../assets/img/activity/theaterart/t9.jpeg",
+  //       "../assets/img/activity/theaterart/t11.jpg",
+  //       "../assets/img/activity/theaterart/t10.jpg",
+  //       "../assets/img/activity/theaterart/t7.jpeg",
+  //       "../assets/img/activity/theaterart/t8.jpeg",
+  //       "../assets/img/activity/theaterart/t2.jpg",
+  //     ],
+  //   },
+  //   {
+  //     id: 12,
+  //     title: "Lunch Time",
+  //     description:
+  //       "Lunch Time provides students with an opportunity to relax, socialize, and build friendships in a supportive and inclusive environment. It encourages peer interaction, enhances social skills, and gives students a break to recharge for the rest of the day’s activities. Special accommodations are made to ensure that all students, including those with hearing impairments, can engage comfortably and confidently.",
+  //     photos: [
+  //       "../assets/img/activity/lunchtime/l1.jpeg",
+  //       "../assets/img/activity/lunchtime/l2.jpeg",
+  //     ],
+  //   },
+  //   {
+  //     id: 13,
+  //     title: "Plantation",
+  //     description:
+  //       "The Plantation program introduces students to the joys and benefits of gardening and environmental stewardship. Through hands-on activities, students learn about plant growth, care, and the importance of sustainability. This program promotes teamwork, responsibility, and a connection to nature, all while enhancing students' practical skills and providing a calming, rewarding experience.",
+  //     photos: [
+  //       "../assets/img/activity/plantation/p1.jpeg",
+  //       "../assets/img/activity/plantation/p2.jpeg",
+  //     ],
+  //   },
+  //   {
+  //     id: 14,
+  //     title: "Sports Day",
+  //     description:
+  //       "Sports Day is a fun-filled event that encourages physical activity, teamwork, and healthy competition. Students participate in a variety of sports and games designed to be inclusive and accessible. This event promotes physical fitness, boosts self-confidence, and fosters a sense of community among students, all while ensuring that everyone can join in and enjoy the activities.",
+  //     photos: [
+  //       "../assets/img/activity/sportday/s1.jpeg",
+  //       "../assets/img/activity/sportday/s2.jpeg",
+  //       "../assets/img/activity/sportday/s3.jpeg",
+  //       "../assets/img/activity/sportday/s4.jpeg",
+  //       "../assets/img/activity/sportday/s5.jpeg",
+  //       "../assets/img/activity/sportday/s6.jpeg",
+  //       "../assets/img/activity/sportday/s7.jpeg",
+  //       "../assets/img/activity/sportday/s8.jpeg",
+  //       "../assets/img/activity/sportday/s9.jpeg",
+  //     ],
+  //   },
+  //   {
+  //     id: 15,
+  //     title: "Sport Time",
+  //     description:
+  //       "Sport Time offers students an opportunity to engage in various sports and physical activities in a structured and supportive environment. This program focuses on developing physical skills, encouraging teamwork, and fostering a love for sports. Activities are designed to be inclusive and cater to all ability levels, ensuring that every student can participate and benefit from the experience.",
+  //     photos: [
+  //       "../assets/img/activity/sporttime/s1.jpeg",
+  //       "../assets/img/activity/sporttime/s2.jpeg",
+  //       "../assets/img/activity/sporttime/s3.jpeg",
+  //       "../assets/img/activity/sporttime/s4.jpeg",
+  //       "../assets/img/activity/sporttime/s5.jpeg",
+  //       "../assets/img/activity/sporttime/s6.jpeg",
+  //       "../assets/img/activity/sporttime/s7.jpeg",
+  //       "../assets/img/activity/sporttime/soprtim.jpeg",
+  //     ],
+  //   },
+  //   {
+  //     id: 16,
+  //     title: "Corona Awareness Activity",
+  //     description:
+  //       "Promoting awareness and safety during the COVID-19 pandemic. This activity focuses on educating students about hygiene practices, social distancing, and the importance of vaccination. The school organized various online seminars, poster-making competitions, and interactive sessions to inform and empower students about the preventive measures. These efforts contributed to raising awareness at both the community and institutional levels.",
+  //     photos: [
+  //       "../assets/img/activity/corona/c1.jpg",
+  //       "../assets/img/activity/corona/c2.jpg",
+  //       "../assets/img/activity/corona/c3.jpg",
+  //       "../assets/img/activity/corona/c4.jpg",
+  //       "../assets/img/activity/corona/c5.jpg",
+  //     ],
+  //   },
+  //   {
+  //     id: 17,
+  //     title: "Day Celebration",
+  //     description:
+  //       "Day Celebration is a festive event where students come together to celebrate special occasions and cultural traditions. This event encourages a sense of community, allowing students to showcase their talents and participate in a variety of fun and engaging activities. Designed to be inclusive and enjoyable for all, the celebration fosters a spirit of togetherness and joy, creating memorable experiences for everyone involved.",
+  //     photos: [
+  //       "../assets/img/activity/festival/d1.jpeg",
+  //       "../assets/img/activity/festival/d2.jpeg",
+  //       "../assets/img/activity/festival/d3.jpeg",
+  //     ],
+  //   },
 ];
 
 const Activite = () => {
